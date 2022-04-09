@@ -11,7 +11,7 @@
 
   <groupId>com.github.dotslash21</groupId>
   <artifactId>mssc-brewery-bom</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
   <url>https://github.com/dotslash21/mssc-brewery-bom</url>
@@ -39,7 +39,7 @@
     <connection>scm:git:git@github.com:dotslash21/mssc-brewery-bom.git</connection>
     <developerConnection>scm:git:git@github.com:dotslash21/mssc-brewery-bom.git</developerConnection>
     <url>https://github.com/dotslash21/mssc-brewery-bom</url>
-    <tag>1.0.1</tag>
+    <tag>@{project.version}</tag>
   </scm>
 
   <properties>
